@@ -22,8 +22,6 @@ public:
         generateBoard();
     }
 
-	
-
     void loadBoard(const string& filename) {
         ifstream file(filename);
         if (!file) {
